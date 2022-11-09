@@ -1,0 +1,83 @@
+.Home-Container{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.Filter{
+    border: 2px solid black;
+    width: 18%;
+    height: 50vh;
+    margin-top:98px;
+    margin-left: 23px;
+    border-radius: 8px;
+padding: 12px;
+
+}
+
+label{
+    margin-right: 8px;
+}
+
+.Product{
+    border: 2px solid black;
+    width: 72%;
+    height: 80vh;
+    margin-top:30px;
+    margin-left: 45px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap:wrap ;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.Product-Card{
+    border: 2px solid red;
+    height:57vh;
+    margin: 8px;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+border-radius: 16px;
+
+}
+img{
+    width: 85px;
+    border: 1px solid red;
+    margin: 12px;
+border-radius: 16px;
+
+}
+
+.Purchase-Btn{
+    width: 15vw;
+    background-color: aqua;
+    border: 2px solid red;
+    position: absolute;
+    bottom: 25.9%;
+border-radius: 16px;
+padding: 6px;
+
+  }
+
+  .Purchased-item{
+    border: 2px solid green;
+    position: absolute;
+  right: 31%;
+  top: 35%;
+  width:19vw;
+  height: 50vh;
+  text-align: center;
+  background: rgba(234, 71, 71, 0.44);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(234, 71, 71, 0.3);
+  }
+
+  .Pop-up_img{
+    width: 100px ;
+  }
