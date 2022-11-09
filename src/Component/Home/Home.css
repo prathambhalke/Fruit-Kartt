@@ -61,7 +61,7 @@ img {
     bottom: 25.9%;
     border-radius: 16px;
     padding: 6px;
-
+cursor: pointer;
 }
 
 .Purchased-item {
@@ -70,7 +70,7 @@ img {
     right: 31%;
     top: 35%;
     width: 19vw;
-    height: 50vh;
+    height: 58vh;
     text-align: center;
     background: rgba(234, 71, 71, 0.44);
     border-radius: 16px;
@@ -82,4 +82,20 @@ img {
 
 .Pop-up_img {
     width: 100px;
+}
+.fa-solid{
+    color: rgb(9, 142, 36);
+    font-size: 22px;
+    margin-right: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.icon{
+display: flex;
+justify-content: end;
+
+}
+input{
+    cursor: pointer;
 }

@@ -112,6 +112,9 @@ function Home() {
         {popupCard.map((item) => {
           return (
             <div className="Popup-Card">
+              <div className="icon">
+                <i class="fa-solid fa-square-xmark" onClick={()=>setpopup(!popup)}></i>
+              </div>
               <img className="Pop-up_img" src={item.ProductImg} />
               <p>{item.category}</p>
               <br />
